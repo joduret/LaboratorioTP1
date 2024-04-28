@@ -1,32 +1,42 @@
+*{
+    font-family: dancing script;
+}
+
 .Titulo{
     font-style: italic;
-    color: antiquewhite;
-    font-size: x-large;
+    font-size: 45px;
+    font-family: dancing script;
 }
 .Imagen{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(250, 197, 232);
+    border-radius: 50px;
 }
 .contenedor{
     display: flex;
 }
 .AcercaDeMi {
-    background-color: antiquewhite;
+    
     width: 50%;
-    padding: 35px;
-    text-align: center;
+    padding: 5px;
+    text-align:initial;
     margin-right: 5px;
-    img{width: 50px;}
+    img{width: 100px;}
     display: flex;
 }
+.textoAcercademi{
+    
+    padding-top: 30px;
+    font-style: bold;    
+}
 .habilidades{
-    background-color: antiquewhite;
     width:50%;
     padding: 35px;
     text-align: center;
     margin-left: 5px;
+    font-style: bold;
 }
 .contenedor2{
     display: flex;
@@ -34,7 +44,6 @@
     width: 50%;
 }
 .Informacion{
-    background-color: antiquewhite;
     text-align: center;
     .items{
         text-align: left;
@@ -43,7 +52,7 @@
 }
 .Aportes{
     text-align: center;
-    color: rgb(245, 93, 181);
+   
     .formacion{
         color: black;
     }
@@ -53,9 +62,10 @@
 
 .CompetenciasGenerales{
     text-align: center;
-    color: rgb(245, 93, 181);
+
     .items2{
         text-align: left;
         color: black;
     }
+    
 }
