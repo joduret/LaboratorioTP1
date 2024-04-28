@@ -33,3 +33,29 @@
     flex-direction: column;
     width: 50%;
 }
+.Informacion{
+    background-color: antiquewhite;
+    text-align: center;
+    .items{
+        text-align: left;
+    }
+    margin-right: 5px;
+}
+.Aportes{
+    text-align: center;
+    color: rgb(245, 93, 181);
+    .formacion{
+        color: black;
+    }
+
+ 
+}
+
+.CompetenciasGenerales{
+    text-align: center;
+    color: rgb(245, 93, 181);
+    .items2{
+        text-align: left;
+        color: black;
+    }
+}
