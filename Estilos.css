@@ -69,3 +69,12 @@
     }
     
 }
+.contenedor3{
+    width: 50%;
+    margin-left:50px;
+    display:flex;
+}
+
+.cont2y3{
+    display:flex;
+}
