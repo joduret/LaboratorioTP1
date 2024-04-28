@@ -1,3 +1,8 @@
+.Titulo{
+    font-style: italic;
+    color: antiquewhite;
+    font-size: x-large;
+}
 .Imagen{
     display: flex;
     flex-direction: column;
@@ -13,6 +18,8 @@
     padding: 35px;
     text-align: center;
     margin-right: 5px;
+    img{width: 50px;}
+    display: flex;
 }
 .habilidades{
     background-color: antiquewhite;
