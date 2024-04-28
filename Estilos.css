@@ -1,6 +1,23 @@
-.contenedor{
+.Imagen{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: antiquewhite;
+}
+.contenedor{
+    display: flex;
+}
+.AcercaDeMi {
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 35px;
+    text-align: center;
+    margin-right: 5px;
+}
+.habilidades{
+    background-color: antiquewhite;
+    width:50%;
+    padding: 35px;
+    text-align: center;
+    margin-left: 5px;
 }
