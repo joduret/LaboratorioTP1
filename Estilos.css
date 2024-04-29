@@ -31,12 +31,7 @@
     padding-top: 30px;
     font-style: bold;    
 }
-.edad{
-    background-color: rgb(201, 191, 194);
-}
-.fecha{
-    background-color: rgb(201, 191, 194);
-}
+
 .habilidades{
     width:50%;
     padding-top:5px;
@@ -104,7 +99,7 @@
     padding: 5px;
     border-radius: 50px;
 
-    background-color: rgb(252, 192, 239);
+    background-color: rgb(230, 83, 198);
 }
 .educ{
     width: 50px;
@@ -122,4 +117,41 @@
     display: flex;
     flex-direction: column;
     padding-top: 1px;
+}
+.estudios1{
+    background-color: rgb(201, 191, 194);
+}
+.estudios2{
+    background-color: rgb(201, 191, 194);
+}
+.estudios3{
+    background-color: rgb(201, 191, 194);
+}
+.contacto{
+    padding: 5px;
+    border-radius: 50px;
+
+    background-color: rgb(230, 83, 198);
+}
+.imag_contacto{
+    width: 50px;
+    margin: auto;  
+    display: block;
+}
+.textoContacto{
+    text-align: center;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-size-adjust: 200px;
+}
+.linkedin{
+    width: 50px;
 }
