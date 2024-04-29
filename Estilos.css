@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(250, 197, 232);
+    border: 2px solid rgb(235, 83, 141);
     border-radius: 50px;
 }
 .contenedor{
@@ -32,7 +32,10 @@
     font-style: bold;    
 }
 .edad{
-    background-color: rgb(235, 83, 141);
+    background-color: rgb(201, 191, 194);
+}
+.fecha{
+    background-color: rgb(201, 191, 194);
 }
 .habilidades{
     width:50%;
@@ -94,7 +97,7 @@
     display: flex;
    padding: 5px;
    width: 90%;
-   border: 2px solid rgb(190, 108, 245);
+  
 }
 .imag_educacion{
     
@@ -111,4 +114,12 @@
 .estudios{
     text-align: center;
     font-size: x-large;
+}
+.textoEstudios{
+    text-align: center;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
 }
