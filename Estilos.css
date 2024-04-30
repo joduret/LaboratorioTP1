@@ -6,6 +6,7 @@
     font-style: italic;
     font-size: 45px;
     font-family: dancing script;
+    text-align: center;
 }
 .Imagen{
     display: flex;
@@ -13,6 +14,8 @@
     align-items: center;
     border: 2px solid rgb(235, 83, 141);
     border-radius: 50px;
+    img{width: 300px;}
+                
 }
 .contenedor{
     display: flex;
